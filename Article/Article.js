@@ -4,7 +4,6 @@ class Article {
   constructor(domElement) {
     // assign this.domElement to the passed in domElement
     this.domElement = domElement;
-    console.log("text");
 
     // create a reference to the ".expandButton" class. 
     this.expandButton = domElement.querySelector(".expandButton");
